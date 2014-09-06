@@ -1,0 +1,64 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hellorammus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="HelloRammus"
+            android:label="@string/title_activity_hello_rammus" >
+        </activity>
+        <activity android:name="HelloBMI" >
+        </activity>
+        <activity android:name="LoginOK" >
+        </activity>
+        <activity android:name="LoginCheck" >
+        </activity>
+        <activity android:name="BMICheck" >
+        </activity>
+        <activity android:name="AboutActivity" >
+        </activity>
+        <activity android:name="Intro" >
+        </activity>
+        <activity android:name="OrderActivity" >
+        </activity>
+        <activity android:name="HelloListView" >
+        </activity>
+        <activity android:name="MyNotificationHandler" >
+        </activity>
+        <activity android:name="HelloSQLite" >
+        </activity>
+        <activity android:name="HelloGameActivity" >
+        </activity>
+        <activity
+            android:name="HelloSearchManager"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name="HelloXXXManager" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

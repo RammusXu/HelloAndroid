@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:hint="@string/hint_search_manager_key_word"
+    android:label="@string/label_search_manager_title" >
+
+</searchable>
