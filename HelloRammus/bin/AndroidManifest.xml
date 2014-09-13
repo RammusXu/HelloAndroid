@@ -42,7 +42,13 @@
         <activity android:name="HelloSQLite" >
         </activity>
         <activity android:name="HelloGameActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        
         <activity
             android:name="HelloSearchManager"
             android:launchMode="singleTop" >
@@ -55,12 +61,8 @@
                 android:resource="@xml/searchable" />
         </activity>
         <activity android:name="HelloXXXManager" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+        <service android:name="MyAdService"></service>
     </application>
 
 </manifest>

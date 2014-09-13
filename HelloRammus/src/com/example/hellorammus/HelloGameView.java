@@ -46,6 +46,7 @@ public class HelloGameView extends SurfaceView {
 			@Override
 			public void surfaceCreated(SurfaceHolder holder) {
 				try {
+					Log.w(TAG,"surfaceCreated");
 					_gameThread.setRunning(true);
 					_gameThread.start();
 				} catch (Exception e) {
@@ -55,6 +56,7 @@ public class HelloGameView extends SurfaceView {
 
 			@Override
 			public void surfaceDestroyed(SurfaceHolder holder) {
+				Log.w(TAG,"surfaceDestroyed");
 				boolean bIfRetry = true;
 				_gameThread.setRunning(false);
 				while (bIfRetry) {
