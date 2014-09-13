@@ -24,6 +24,11 @@
         <activity android:name="HelloBMI" >
         </activity>
         <activity android:name="LoginOK" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="LoginCheck" >
         </activity>
@@ -42,11 +47,6 @@
         <activity android:name="HelloSQLite" >
         </activity>
         <activity android:name="HelloGameActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         
         <activity
@@ -63,6 +63,10 @@
         <activity android:name="HelloXXXManager" >
         </activity>
         <service android:name="MyAdService"></service>
+        
+        
+        <activity android:name="HelloInternet" >
+        </activity>
     </application>
 
 </manifest>

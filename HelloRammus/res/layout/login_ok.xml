@@ -4,6 +4,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <ProgressBar
+        android:id="@+id/login_ok_progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <TextView
         android:id="@+id/login_ok_textView1"
         android:layout_width="fill_parent"
@@ -18,5 +24,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/login_ok_btn" />
+
+    <WebView
+        android:id="@+id/login_ok_webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/col_white"
+        android:focusable="false" />
 
 </LinearLayout>

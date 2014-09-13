@@ -70,7 +70,7 @@
     <string name="hello_sqlite_button1">Add to menu</string>
     <string name="hello_sqlite_button2">Query</string>
     <string name="hello_sqlite_button3">Reset DB</string>
-    
+
     <!-- Hello Intent -->
     <string name="btn_search">Search</string>
     <string name="btn_open">Open</string>
@@ -85,7 +85,7 @@
     <string name="hint_call_phone_no">phone number</string>
     <string name="hint_play_music_url">music url</string>
     <string name="hint_share_url">url you want to share</string>
-    
+
     <!-- Hello Search -->
     <string name="label_search_manager_title">Search:</string>
     <string name="btn_search_manager_1">Search 1</string>
@@ -96,12 +96,19 @@
     <string name="btn_search_manager_6">Search 6</string>
     <string name="hint_search_manager_key_word">Keyword you wanna search</string>
     <string name="label_search_manager_voice">Voice prompt</string>
-    
+
     <!-- Hello XXX Manager -->
     <string name="label_xxx_manager">XXXManager</string>
     <string name="label_xxx_manager_vibrator">Vibrator</string>
     <string name="btn_xxx_manager_vloume_up">Volumn up</string>
     <string name="btn_xxx_manager_vloume_down">Volumn down</string>
     
+    <!-- Hello Internet -->
+    <string name="label_hello_internet_stock">Stock</string>
+    <string name="hint_hello_internet_stock_number">Stock No.</string>
+    <string name="btn_hello_internet_stock_query">Query</string>
+    <string name="str_hello_internet_stock_result">Results</string>
+    <string name="str_loading">Loading</string>
+    <string name="str_plz_wait">Please wait...</string>
 
 </resources>
