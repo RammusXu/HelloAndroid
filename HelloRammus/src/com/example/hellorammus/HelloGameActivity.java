@@ -103,7 +103,7 @@ public class HelloGameActivity extends Activity {
 		filter.addAction(DAVID_AD_START);
 		filter.addAction(DAVID_AD_END);
 		registerReceiver(recevier, filter);
-		
+
 		super.onResume();
 	}
 

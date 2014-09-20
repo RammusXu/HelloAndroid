@@ -102,7 +102,7 @@
     <string name="label_xxx_manager_vibrator">Vibrator</string>
     <string name="btn_xxx_manager_vloume_up">Volumn up</string>
     <string name="btn_xxx_manager_vloume_down">Volumn down</string>
-    
+
     <!-- Hello Internet -->
     <string name="label_hello_internet_stock">Stock</string>
     <string name="hint_hello_internet_stock_number">Stock No.</string>
@@ -110,5 +110,11 @@
     <string name="str_hello_internet_stock_result">Results</string>
     <string name="str_loading">Loading</string>
     <string name="str_plz_wait">Please wait...</string>
+
+    <!-- Hello Fragment -->
+    <string name="btn_hello_fragment_show_one">Fragment One</string>
+    <string name="btn_hello_fragment_show_two">Fragment Two</string>
+    <string name="label_hello_fragment_layout_one">Layout One</string>
+    <string name="label_hello_fragment_layout_two">Layout Two</string>
 
 </resources>

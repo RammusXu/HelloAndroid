@@ -24,11 +24,6 @@
         <activity android:name="HelloBMI" >
         </activity>
         <activity android:name="LoginOK" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="LoginCheck" >
         </activity>
@@ -48,7 +43,6 @@
         </activity>
         <activity android:name="HelloGameActivity" >
         </activity>
-        
         <activity
             android:name="HelloSearchManager"
             android:launchMode="singleTop" >
@@ -62,11 +56,20 @@
         </activity>
         <activity android:name="HelloXXXManager" >
         </activity>
-        <service android:name="MyAdService"></service>
-        
-        
         <activity android:name="HelloInternet" >
         </activity>
+        <activity
+            android:name="HelloFragment"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="MyAdService" >
+        </service>
     </application>
 
 </manifest>
