@@ -61,6 +61,8 @@
         <activity
             android:name="HelloFragment"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" >
+        </activity>
+        <activity android:name="HelloGesture" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
